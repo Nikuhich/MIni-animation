@@ -1,0 +1,212 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+
+
+header{
+    position: relative;
+    width: 100%;
+    height: 963px;
+    overflow: hidden;
+}
+
+
+body{
+    background: url(../img/fon.jpg);
+}
+
+
+.img1{
+    position: absolute;
+    bottom: 0; 
+    
+    
+}
+
+
+
+
+.helicopter{
+    position: absolute;
+    top: 600px;
+    right: 700px;
+    animation: helicopter 10s infinite;
+    
+}
+
+
+.img2{
+    position: relative;
+    width: 100%;
+  
+}
+
+.otdelniydiv{
+    margin-top: 615px;
+    width: 600px;  
+    position: relative;
+    animation: poezd 7s infinite;
+    
+}
+
+.poezdoviekolosa{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    left: 187px;
+    top: 163px;
+    animation: colosa 10s infinite;
+    
+    
+}
+
+
+.poezdoviekolosa2{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    left: 258px;
+    top: 161px;
+    animation: colosa 10s infinite;
+}
+
+
+.poezdoviekolosa3{
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    left: 351px;
+    top: 184px;
+    animation: colosa 10s infinite;
+}
+
+.poezdoviekolosa4{
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    left: 406px;
+    top: 184px;
+    animation: colosa 10s infinite;
+}
+
+.poezdoviekolosa5{
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    left: 459px;
+    top: 184px;
+    animation: colosa 10s infinite;
+}
+
+.poezdoviekolosa6{
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    left: 514px;
+    top: 184px;
+    animation: colosa 10s infinite;
+}
+
+.poezdoviekolosa7{
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    left: 74px;
+    top: 194px;
+    animation: colosa 10s infinite;
+}
+
+.poezdoviekolosa8{
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    left: 126px;
+    top: 194px;
+    animation: colosa 10s infinite;
+}
+
+
+
+.colesoobozreniya{
+    position: absolute;
+    top: 919px;
+    right: 2210px;
+    z-index: -1;
+}
+
+
+.imgh{
+    position: absolute;
+    width: 450px;
+    height: 450px;
+    left: 319px;
+    bottom: 94px;
+    animation: drugoecoleso 3s infinite;
+    
+}
+
+
+.imgh2{
+    position: absolute;
+    width: 500px;
+    height: 500px;
+    left: 300px;
+    bottom: 40px;
+    
+}
+
+
+
+@keyframes drugoecoleso{
+    0%{
+        transform: rotate(0);
+    }
+    
+    100%{
+        transform: rotate(360deg)
+    }
+}
+
+
+@keyframes colosa{
+    0%{
+        transform: rotate(0);
+        
+    }
+    
+    100%{
+        transform: rotate(5000deg);
+       
+    }
+}
+
+
+
+@keyframes helicopter{
+    0%{
+        transform:  translateX(-9000px);
+        top: 1000px;
+    }
+    
+    100%{
+        transform: translateX(2000px);
+        top: 30px;
+    }
+    
+}
+
+
+
+@keyframes poezd{
+    0%{
+        transform: translateX(1900px);
+    }
+    
+    100%{
+        transform: translateX(-1200px);
+    }
+}
+
